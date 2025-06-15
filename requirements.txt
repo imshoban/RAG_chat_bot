@@ -1,0 +1,6 @@
+# Core dependencies
+chromadb        # Vector database for document storage
+openai          # LLM API access
+pypdf2          # PDF document processing
+python-docx     # Word document processing
+sentence-transformers  # Text embeddings
