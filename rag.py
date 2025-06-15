@@ -137,7 +137,7 @@ def generate_response(query: str, context: str, conversation_history: str = ""):
 
 folder_path = "./KB"
 process_and_add_documents(collection, folder_path)
-query = "What is the capital of india?"
+query = "Where is the Techwave office located ?" # Enter the user query here
 results = semantic_search(collection, query)
 context, sources = get_context_with_sources(results)
 # print('context!!', context)
